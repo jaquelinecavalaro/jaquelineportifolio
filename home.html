@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+        <title>JaqueCv</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="banner">
+            <img src="banner.jpg" class="cover">
+        </div>
+        <div class="navLink">
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> About</a></li>
+                <li><a href="#"> Skills & Certificate</a></li>
+                <li><a href="#"> Portifolio</a></li>
+                <li><a href="#"> Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="sec">
+        <header>
+            <div class="toggle"></div>
+                <a href="#" class="btn">Hire Me</a>
+        </header>
+    </section>
+
+    <script>
+        let menuToggle = document.querySelector('.toggle');
+        menuToggle.onclick = function(){
+            menuToggle.classList.add('active')
+        }
+    </script>
+
+</body>
+</html>
