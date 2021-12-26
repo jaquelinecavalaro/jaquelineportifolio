@@ -29,12 +29,24 @@
             <div class="toggle"></div>
                 <a href="#" class="btn">Hire Me</a>
         </header>
+
+        <div class="imgBx">
+            <img src="jaque.jpg" class="cover">
+        </div>
+        <div class="content">
+            <h2>Hi, I am<br><span>Jaqueline Cavalaro</span> </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis dolor quo, ullam nesciunt harum minus totam quasi. Adipisci architecto perferendis sint similique suscipit, corrupti quaerat. Neque sunt vel maiores molestiae.</p>
+        </div>
     </section>
 
     <script>
         let menuToggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation')
+        let sec = document.querySelector('.sec');
         menuToggle.onclick = function(){
-            menuToggle.classList.add('active')
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+            sec.classList.toggle('active');
         }
     </script>
 
