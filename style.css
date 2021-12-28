@@ -83,6 +83,7 @@ body
 .sec
 {
     position: relative;
+    left: 0;
     width: 100%;
     min-height: 100vh;
     padding: 100px;
@@ -171,7 +172,7 @@ header
 .sec .imgBx
 {
     position: relative;
-    width: 500px;
+    min-width: 500px;
     height: 500px;
     border-radius: 50%;
     overflow: hidden;
@@ -215,4 +216,28 @@ footer
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.sci
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a
+{
+    position: relative;
+    margin-right: 20px;
+    display: inline-block;
+    transform: scale(0.75);
+    opacity: 0.9;
+}
+.copyrightText
+{
+    font-weight: 500;
+    color: #777;
+    letter-spacing: 1px;
 }
