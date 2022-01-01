@@ -171,6 +171,11 @@ header
     border-radius: 4px;
     letter-spacing: 1px;
 }
+.btn:hover
+{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px -3px 10px 5px rgba(191,0,255,0.42); 
+box-shadow: 0px 10px 13px -7px #000000, 0px -3px 10px 5px rgba(191,0,255,0.42);
+}
 .sec .imgBx
 {
     position: relative;
@@ -178,6 +183,12 @@ header
     height: 400px;
     border-radius: 50%;
     overflow: hidden;
+}
+img:hover
+{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px -3px 10px 5px rgba(191,0,255,0.42); 
+box-shadow: 0px 10px 13px -7px #000000, 0px -3px 10px 5px rgba(191,0,255,0.42);
+border-radius: 50%;
 }
 .sec .content
 {
